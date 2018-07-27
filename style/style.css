@@ -1,0 +1,51 @@
+.container{
+    min-width: 520px;
+}
+.card-img-top {
+    width: 30% !important;
+    max-height: 200px;
+    clip: rect(0px,60px,200px,0px);
+}
+.card{
+    position: relative;
+    height: 200px;
+    margin-top: 10px;
+}
+.card-title{
+    color:#007bff;
+}
+.card-body{
+    width:70%;
+    top:20px;
+    margin-left: 30%;
+    position: absolute;
+}
+.s-panel{
+    padding: 10px 0px 20px 0px;
+}
+.btn{
+    width: 150px;
+    margin-right: 10px;
+}
+.built{
+    position: absolute;
+    float:right;
+    top:5px;
+    right:5px;
+}
+.dot {
+    height: 7px;
+    margin:0 5px 0 5px;
+    width: 7px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  @media only screen and (max-width: 1024px)  {
+  .col-6{
+      width:100% !important;
+      max-width:100% !important;
+      flex: none !important;
+  }
+}
